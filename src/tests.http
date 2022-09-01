@@ -1,0 +1,10 @@
+@origin = http://localhost:8080
+### Hello World
+
+GET {{origin}}/demo/hello
+
+### Write a file
+POST {{origin}}/demo/write
+content-type: application/json
+
+"Hello Community All-Hands"
